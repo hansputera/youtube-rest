@@ -45,7 +45,7 @@ fastify.route({
 	}
 });
 
-fastify.listen(8000, (err, address) => {
+fastify.listen(process.env.PORT || 8000, (err, address) => {
 	if (err) throw Error(err);
 	else console.log("Address:", address);
 });
