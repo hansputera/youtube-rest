@@ -1,0 +1,15 @@
+{
+  "name": "youtube-scraper",
+  "version": "1.0.0",
+  "description": "Youtube Rest API",
+  "main": "index.js",
+  "author": "Hanif",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.14.0",
+    "scrape-youtube": "^2.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}
